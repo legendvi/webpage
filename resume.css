@@ -162,28 +162,43 @@ section .head {
   align-items: center;
   color: white;
 }
+#experience {
+  padding-left: 2.2rem;
+}
 
+#portfolio div {
+  padding-left: 2.2rem;
+  height: auto;
+}
 #worklist li {
   margin-bottom: 1.2rem;
   font-size: xx-large;
-  list-style-type: georgian;
+  list-style-type: circle;
 }
 
 .links {
   font-size: 2.2rem;
-  color: black;
+  color: yellowgreen;
   margin: 1.2rem;
 }
 
 .links:hover {
   color: crimson;
 }
-ol li {
+#portfolio li {
   list-style: circle;
-  font-size: 2.2rem;
+  font-size: xx-large;
+  margin-bottom: 1.2rem;
 }
 
-th {
-  font-size: 1.2rem;
-  margin: 2.2rem;
+#portfolio ol li a {
+  padding-left: 0;
+  margin-left: 0;
+}
+#education td {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+#education tr::before {
+  list-style-type: circle;
 }
